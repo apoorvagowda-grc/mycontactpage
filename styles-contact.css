@@ -74,53 +74,53 @@ html, body {
 	min-width: 300px; /* This is for responsiveness */
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(237, 187, 213, 0.5); /*this is a pink colors and uses 50% for the background color*/
+ 	background: rgba(255, 255, 255, 0.7); /*this is a pink colors and uses 50% for the background color*/
 	text-align: center;
-	border: 10px white;
+	border: 10px rgb(20, 79, 92);
 }
 
    
 #logo {
-    width: 70%; /* This is for responsiveness */
+    width: 50%; /* This is for responsiveness */
 	margin-bottom: 16px;
-	border: 0px white;
+	border: 0px rgb(20, 79, 92);
 	text-align: center;
 }
 
 h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
-	font-family: 'mixta-sharp-alt', serif; 
+	font-family: "merel", sans-serif;
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: rgb(20, 79, 92);
 }
 
 h2 {
 	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
-	font-family: 'mixta-sharp-alt', serif;
+	font-family: "merel", sans-serif;
 	 font-size: 1.5em;
     line-height: 1.4;
-    color: #fff;
+    color: rgb(20, 79, 92);
     padding: 0px 0px;
-    margin: 0px auto 25px auto;
+    margin: 0px auto 10px auto;
 }
 
 p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
-	font-family: 'mixta-sharp-alt', serif;
+	font-family: "merel", sans-serif;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
-	letter-spacing: .2mm;
+    color: rgb(20, 79, 92);
+	letter-spacing: .1mm;
 }
 
 nav{
-	font-family: CHOOSE YOUR FONT FAMILY;
+	font-family: "merel", sans-serif;
 	font-size: 1.2em;
 	width: 80%; /* This is for responsiveness */
 	margin: 0 auto;
 	text-align: center;
-	margin-top: 2em;
+	margin-top: 1em;
 }
 
 nav li{
@@ -133,12 +133,12 @@ nav a{
 }
 
 a{
-	color: #ffffff;
+	color: rgb(20, 79, 92);
 	text-decoration: none;
 	font-weight: bold;
 }
 
 a:hover{
-	color: rgb(5, 6, 56);
-	background: rgb(168, 107, 117);
+	color: rgb(255, 255, 255);
+	background: rgb(20, 79, 92);
 }
